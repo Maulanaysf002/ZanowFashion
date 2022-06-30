@@ -1,0 +1,112 @@
+/* vanila css */
+
+/* link */
+.link1 {
+  color: white;
+  text-decoration: none;
+}
+.link1:hover {
+  color: #f1d00a;
+}
+.link2 {
+  color: white;
+  text-decoration: none;
+}
+.link2:hover {
+  color: #334257;
+}
+.link3 {
+  color: white;
+}
+.link3:hover {
+  font-weight: 500;
+  text-decoration: none;
+}
+/* main color */
+.warna1 {
+  background-color: #21325e;
+}
+.warna2 {
+  background-color: #3e497a;
+}
+.warna3 {
+  background-color: #f1d00a;
+}
+.warna4 {
+  background-color: #f0f0f0;
+}
+.color1 {
+  color: #f0f0f0;
+}
+.color2 {
+  color: #21325e;
+}
+
+/* shadow */
+.shadow1 {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
+}
+
+.text-shadow1 {
+  text-shadow: 0px 0px 20px #3e497a;
+}
+
+/* - index utama - */
+
+/* banner */
+.banner {
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(image/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+}
+
+/* highlight  */
+.highlight-kategori {
+  height: 250px;
+}
+.kategori-bajupria {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(image/bajupria.jpg);
+  background-size: 50%;
+  background-position: center;
+}
+.kategori-bajuwanita {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(image/bajuwanita.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.kategori-jamtangan {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(image/jamtangan.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* tentang kami */
+
+/* produk highlight */
+.image-box {
+  height: 250px;
+}
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.text-harga {
+  font-size: 20px;
+  color: #041562;
+}
+
+.color-kontak {
+  background-color: rgb(51, 66, 87, 0.7);
+}
+
+/* - PRODUK -  */
+.banner-produk {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(image/banner.jpg);
+  height: 30vh;
+}
